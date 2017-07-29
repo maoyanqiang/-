@@ -1,0 +1,95 @@
+/* CSS Document */
+*{margin:0px;padding:0px;}
+a{text-decoration: none;font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";color:#fff;}
+.r{border:1px solid red;}
+
+/*---------header-----------*/
+#header{height:750px;background:url(../img/banner.jpg);background-size:cover;border:1px solid #ccc;}
+
+#nav{width:1200px;height:30px;margin:60px auto 0px;}
+.logo{text-decoration: none;font-size:24px;font-weight: 700;float: left;letter-spacing: 5px;}
+.navbar{width:55%;height:30px;float: right;list-style: none;}
+.navbar li{float:left;line-height: 30px;}
+.navbar li a{text-decoration: none;font-size:16px;display: block;font-weight: 700; margin-left: 40px;color:#ccc;}
+.navbar li a:hover{color:#fff;}
+.p_1{width:920px;font-family: '微软雅黑';font-weight: bold;color:#fff;font-size:60px;text-transform: uppercase;margin:10% auto 0px;text-align: center;letter-spacing: 2.5px;}
+.p_2{width:920px;margin:0px auto;font-size:16px;text-align: center;color:#ccc;}
+.btn_1{width:170px;height:45px;background:#3bc492;color:#fff;border:none;cursor:pointer;transition: all 1s;border-radius: 3px;font-weight: 700;margin:60px auto 0px;display: block;outline: none;}
+.btn_1:hover{background:rgb(61,61,61);}
+
+/*---------about-----------*/
+#about{height:300px;background:#00aeda;position:relative;}
+.about_box{width:46%;height:40px;text-align: center;margin:auto;position:absolute;left: 0;top:0;right:0;bottom:0;color:#fff;}
+
+/*---------ser-----------*/
+#ser{width:100%;height:566px;position:relative;}
+.row{width:1200px;height:380px;margin:auto;position:absolute;left: 0;top:0;right:0;bottom:0;}
+.row_cont{width:390px;text-align: center;display: inline-block;margin-bottom: 30px;}
+.row_cont span{font-size:50px;color:#00aeda;}
+.two{margin-top:30px;}
+.two h5{font-family: '微软雅黑'}
+.two p{color:#6c7279;margin-top:10px;font-size:13px;}
+
+/*---------works-----------*/
+#works{height:950px;width:100%;}
+.works_box{width:100%;margin:0px auto;text-align: center;}
+.words_cont{width:24.93%;height:auto;position:relative;float:left;margin: 0px 1px 2px 0px;}
+.words_cont img{vertical-align:top;}
+.js{width:40%;height:30px;position:absolute;left:0px;top:0px;bottom:0px;right:0px;margin:auto;text-align: center;font-family: '微软雅黑'}
+.js h5{font-size:1.2em;}
+
+/*---------team-----------*/
+#team{height:400px;}
+#team_box{width:1200px;margin:100px auto 0px;}
+.team_cont{width:292px;height:366px;text-align: center;float: left;margin:0px 4px 0px 0px;}
+.team_cont img{border-radius:100px;}
+.team_cont h3{margin:10px 0px 0px 0px;font-family: '微软雅黑'}
+.team_cont span{font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";color:#00aeda;}
+.team_cont p{color:#6c7279;margin-top:15px;font-size:13px;}
+.team_cont ul{list-style: none;width:52%;margin:20px auto;}
+.team_cont ul li{float:left;width:30px;}
+.team_cont ul li i{transition:all 0.5s;cursor:pointer;}
+.team_cont ul li i:hover{color:#00aeda;}
+
+/*---------test-----------*/
+#test{height:388px;background:#00aeda;}
+
+/*---------contact-----------*/
+#contact{height:720px;text-align: center;}
+#contact h2{font-family: '微软雅黑';margin-top:100px;font-size:30px;}
+#contact p{color:#6c7279;margin:40px auto;font-size:13px;width:750px;}
+.name,.email{width:600px;border:none;border-bottom:1px solid #ccc;outline: none;padding:0px 0px 10px 20px;font-size:14px;margin:0px 0px 30px 0px;font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"}
+.textarea{width:600px;height:150px;padding:0px 0px 10px 20px;border:none;border-bottom:1px solid #ccc;outline: none;font-size:14px;font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"}
+.btn_2{width:250px;height:45px;background:#3bc492;color:#fff;border:none;cursor:pointer;transition: all 1s;border-radius: 3px;font-weight: 700;margin:60px auto 0px;display: block;text-transform: uppercase;letter-spacing: 5px;outline: none;}
+.btn_2:hover{background:rgb(61,61,61);}
+
+/*---------footer-----------*/
+#foot{height:440px;background:#181818;border:1px solid #181818;box-sizing: border-box;}
+.col{width:1200px;height:300px;margin:50px auto;}
+.col > div{float:left;}
+.col > div > h4{color:#fff;font-family: '微软雅黑'}
+.col > div > p{color:#ccc;font-size:13px;line-height: 25px;margin-top:20px;}
+.col_2 ul{list-style: none;}
+.col a{color:#ccc;transition:all 0.5s;}
+.col a:hover{color:#e84545;}
+.col_3 ul{list-style: none;}
+.col_3 ul li{float: left;width:35px;font-size:25px;color:#ccc;}
+.col_1{width:55%;}
+.col_2{width:30%}
+.col_3{width:15%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
